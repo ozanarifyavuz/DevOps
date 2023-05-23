@@ -1,4 +1,4 @@
-FROM alpine
+FROM python:3.8-alpine
 
 # Installing necessary dependencies
 RUN apk add --no-cache python3 py3-pip
